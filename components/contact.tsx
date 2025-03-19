@@ -55,7 +55,7 @@ export default function Contact() {
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-heading">Contact Us</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Have questions or want to schedule a visit? We'd love to hear from you.
+              Have questions or want to schedule a visit? We&apos;d love to hear from you.
             </p>
           </div>
         </div>
@@ -177,7 +177,7 @@ export default function Contact() {
               <CardHeader>
                 <CardTitle>Visit Our Campus</CardTitle>
                 <CardDescription>
-                  We'd love to show you around our facilities and answer your questions in person.
+                  We&apos;d love to show you around our facilities and answer your questions in person.
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-3 sm:space-y-4">

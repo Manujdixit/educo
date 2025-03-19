@@ -3,6 +3,7 @@
 import { useIntersectionObserver } from "@/hooks/use-intersection-observer";
 import { cn } from "@/lib/utils";
 import { Marquee } from "./magicui/marquee";
+import Image from "next/image";
 
 export default function Testimonials() {
   const { ref, isVisible } = useIntersectionObserver();
@@ -63,11 +64,11 @@ export default function Testimonials() {
         )}
       >
         <div className="flex flex-row items-center gap-2">
-          <img
+          <Image
             className="rounded-full"
-            width="32"
-            height="32"
-            alt=""
+            width={32}
+            height={32}
+            alt={`${name}'s avatar`}
             src={img}
           />
           <div className="flex flex-col">

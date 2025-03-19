@@ -3,7 +3,7 @@
 import { useIntersectionObserver } from "@/hooks/use-intersection-observer";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { GraduationCap, Users, Clock, BarChart, Sparkles, VideoIcon } from "lucide-react";
+import { GraduationCap, Users, Clock, Sparkles, VideoIcon } from "lucide-react";
 
 export default function WhatWeOffer() {
   const { ref, isVisible } = useIntersectionObserver();
