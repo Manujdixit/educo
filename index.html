@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educo</title>
+    <style>
+        .whatsapp-float {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25D366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            transition: all 0.3s ease;
+        }
+
+        .whatsapp-float:hover {
+            background-color: #128C7E;
+            transform: scale(1.1);
+        }
+
+        .whatsapp-float svg {
+            width: 35px;
+            height: 35px;
+        }
+
+        @media screen and (max-width: 767px) {
+            .whatsapp-float {
+                width: 50px;
+                height: 50px;
+                bottom: 20px;
+                right: 20px;
+                font-size: 22px;
+            }
+
+            .whatsapp-float svg {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Your website content goes here -->
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/+1234567890" class="whatsapp-float" target="_blank">
+        <svg fill="#ffffff" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <path d="M23.328 19.177c-.401-.2-2.375-1.172-2.742-1.303-.367-.135-.635-.2-.902.2-.268.335-1.036 1.303-1.268 1.57-.233.268-.468.3-.869.1-.401-.2-1.694-.624-3.223-1.988-1.19-1.062-1.995-2.37-2.228-2.77-.233-.401-.025-.618.175-.818.18-.18.401-.468.602-.702.2-.233.268-.4.401-.669.135-.268.067-.502-.033-.702-.101-.2-.902-2.172-1.236-2.974-.325-.784-.657-.678-.902-.69-.233-.012-.5-.012-.769-.012s-.702.1-1.069.502c-.367.401-1.402 1.37-1.402 3.341 0 1.971 1.436 3.875 1.637 4.143.2.268 2.82 4.31 6.835 6.038.955.412 1.7.658 2.28.843.958.303 1.83.26 2.518.157.768-.114 2.375-.97 2.71-1.905.335-.936.335-1.738.235-1.905-.1-.167-.368-.268-.77-.468z"/>
+            <path d="M16.014.982C7.284.982.276 7.99.276 16.719c0 3.03.853 5.859 2.328 8.271L0 32l7.21-2.346a15.68 15.68 0 0 0 8.803 2.683h.008c8.73 0 15.737-7.008 15.737-15.738 0-4.206-1.635-8.166-4.606-11.137C24.179 2.617 20.219.982 16.014.982zm0 28.823h-.006a13.02 13.02 0 0 1-6.845-1.976l-.491-.292-5.09 1.655 1.684-5.051-.32-.509a13.02 13.02 0 0 1-1.998-6.93c0-7.256 5.906-13.162 13.168-13.162 3.518 0 6.824 1.37 9.312 3.858 2.488 2.488 3.857 5.794 3.857 9.312-.001 7.256-5.907 13.095-13.163 13.095z"/>
+        </svg>
+    </a>
+</body>
+</html>
